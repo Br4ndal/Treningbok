@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <h1> Trenings dagbok</h1>
+
+    <form action="process-form.php" method="post">
+        <label for="ovelse"> Øvelse </label>
+        <input type="text" id="ovelse" name="ovelse">
+
+
+
+
+
+        <label for="sets"> Set </label>
+        <select id="setsCH" id="sets" name="sets">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select>
+
+        <label for="reps"> Reps </label>
+        <select id="repsCH" id="reps" name="reps">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected>8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+        </select>
+
+        <label>
+            <input type="radio" name="feeling" value="1">
+            Not good
+        </label>
+        <label>
+            <input type="radio" name="feeling" value="2" checked>
+            OK
+        </label>
+        <label>
+            <input type="radio" name="feeling" value="3">
+            Good
+        </label>
+
+        <label>
+            <input type="checkbox" name="terms">
+            Training completted
+        </label>
+        <br>
+        <br>
+        <button>Submit</button>
+
+    </form>
+
+</body>
+
+</html>
